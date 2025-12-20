@@ -8,11 +8,18 @@
 
 
 
+.landinggroup{
+
+}
+
+
 .navbar{
   display: flex;
   width: 100%;
   padding: 20px;
   justify-content: space-between;
+  background: gainsboro;
+
 }
 
 .navbar .navledt{
@@ -48,5 +55,59 @@
   color: black;
 
 }
+
+
+.middpart{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px 0px;
+  gap: 20px;
+  border-radius: 0px 0px  100px 100px ;
+  background: gainsboro;
+
+}
+
+.middpart img{
+  aspect-ratio: 1/1;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid gainsboro ;
+
+}
+
+.middpart h1{
+ text-transform: capitalize;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ line-height: 1.2;
+ font-size: 40px;
+  text-align: center;
+}
+
+.middpart button{
+  padding: 5px 10px ;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  background: rgb(177, 176, 176);
+
+}
+
+.bootpaet{
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+
+}
+
+.bootpaet img{
+  width: 150px;
+
+}
+
+
 
 
