@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between p-20 '>
+    <div className='flex justify-between p-2'>
       <div className="left text-[20px] font-bold">DYSE</div>
       <div className="right flex   gap-10">
          <a href="">compay </a>
