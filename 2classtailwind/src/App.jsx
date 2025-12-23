@@ -1,16 +1,13 @@
 
 
 function App() {
-if("a" === "a"){
-  console.log(true)
-}
-else{
-  console.log(false)
-}
-
+let rrr = [12,23,43,543,53,43,4,23]
   return (
     <>
-     <h1 className='text-[60px]'>hello</h1>
+    {rrr.map(function(e){
+      return <h1 cllasName ="text-[30px]" >{e}</h1>
+    })}
+   
     </>
   )
 }
