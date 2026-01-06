@@ -15,6 +15,7 @@ function App() {
 
   return (
    <>
+   <Hom/>
    <Routes>
  
 
@@ -25,7 +26,7 @@ function App() {
     <Route path='/You' element={<You/>}/>
 
    </Routes>
-  <About/>
+
 
    </>
   )
